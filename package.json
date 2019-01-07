@@ -1,0 +1,27 @@
+{
+  "name": "architect-kafka-producer",
+  "version": "0.0.1",
+  "description": "Architect plugin to provide a kafka producer service",
+  "main": "setup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walmartdigital/architect-kafka-producer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walmartdigital/architect-kafka-producer/issues"
+  },
+  "homepage": "https://github.com/walmartdigital/architect-kafka-producer#readme",
+  "plugin": {
+    "provides": [
+      "KafkaProducer"
+    ]
+  },
+  "dependencies": {
+    "kafka-node": "^3.0.1"
+  }
+}
